@@ -1,0 +1,46 @@
+{
+  "project": {
+    "id": "golos_intellekta-1515",
+    "name": "golos_intellekta-1515",
+    "folder": "/jaicp"
+  },
+  "settings": {
+    "language": "ru",
+    "spellingCorrection": false,
+    "classificationAlgorithm": "sts",
+    "timezone": "Europe/Moscow",
+    "extendedSettings": {
+      "tokenizerEngine": "default"
+    },
+    "businessShared": false,
+    "business": false
+  },
+  "intents": [
+    {
+      "id": 765962,
+      "path": "/Новый интент",
+      "enabled": true,
+      "businessShared": false,
+      "business": false,
+      "phrases": [],
+      "patterns": [],
+      "slots": [
+        {
+          "name": "duckling.number",
+          "entity": "duckling.number",
+          "required": true,
+          "prompts": []
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "enabledSystemEntities": [
+    "duckling.number",
+    "duckling.time",
+    "duckling.duration",
+    "duckling.phone-number",
+    "duckling.email",
+    "duckling.url"
+  ]
+}
